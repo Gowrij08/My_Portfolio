@@ -1,0 +1,44 @@
+# .gitignore for Angular Portfolio
+
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build outputs
+dist/
+out-tsc/
+.angular/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary
+*.bak
+*.tmp
+temp/
+
+# OS
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Editor
+*.sublime-project
+*.sublime-workspace
